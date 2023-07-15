@@ -31,8 +31,8 @@ export const configAmplify = () => {
                     'profile',
                     'openid',
                 ],
-                redirectSignIn: 'http://localhost:3000/',
-                redirectSignOut: 'http://localhost:3000/',
+                redirectSignIn: 'https://main.d1o5al7beqrmyl.amplifyapp.com/',
+                redirectSignOut: 'https://main.d1o5al7beqrmyl.amplifyapp.com/',
                 responseType: 'code', // or 'token', note that REFRESH token will only be generated when the responseType is code
                 clientID: `${awsExports.USER_POOL_APP_CLIENT_ID}`,
             },
